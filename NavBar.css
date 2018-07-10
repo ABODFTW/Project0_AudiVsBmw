@@ -4,6 +4,7 @@ a {
 }
 a:hover {
   color: crimson;
+  text-decoration: none;
 }
 
 ul > li {
