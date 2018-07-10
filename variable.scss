@@ -1,0 +1,18 @@
+$links_color:crimson;
+a {
+    text-decoration: none;
+    color: #777;
+    &:hover{
+        color:$links_color;
+    }
+}
+
+ul > li {
+    display: inline;
+    padding: .5em;
+}
+@media(max-width:600px){
+    ul > li{
+        display: block;
+    }
+}
